@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hBv90d4rFjZBhKYic4nsCuNr6ucnKap+7t5os3qHrQ8=",
+  "Source": "consulting-information-rickmorty.api",
+  "BasePath": "_content/consulting-information-rickmorty.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

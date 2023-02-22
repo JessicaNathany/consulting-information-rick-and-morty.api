@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\consulting-information-rickmorty.api.props" />
+</Project>
