@@ -1,6 +1,6 @@
-﻿namespace consulting_information_rickmorty.api.Dtos
+﻿namespace consulting_information_rickmorty.api.Response
 {
-    internal class EpisodeDto
+    internal class EpisodeResponse
     {
         /// <summary>
         /// The id of the episode.

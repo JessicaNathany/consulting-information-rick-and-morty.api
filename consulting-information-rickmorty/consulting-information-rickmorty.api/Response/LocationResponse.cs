@@ -1,6 +1,6 @@
-﻿namespace consulting_information_rickmorty.api.Dtos
+﻿namespace consulting_information_rickmorty.api.Response
 {
-    internal class LocationDto
+    internal class LocationResponse
     {
         /// <summary>
         /// The id of the location.

@@ -1,6 +1,6 @@
-﻿namespace consulting_information_rickmorty.api.Dtos
+﻿namespace consulting_information_rickmorty.api.Response
 {
-    internal class CharacterOriginDto
+    internal class CharacterOriginResponse
     {
         /// <summary>
         /// Name to the character's origin location.

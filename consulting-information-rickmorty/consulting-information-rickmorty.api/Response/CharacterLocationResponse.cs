@@ -1,6 +1,6 @@
-﻿namespace consulting_information_rickmorty.api.Dtos
+﻿namespace consulting_information_rickmorty.api.Response
 {
-    internal class CharacterLocationDto
+    internal class CharacterLocationResponse
     {
         /// <summary>
         /// Name to the character's last known location.

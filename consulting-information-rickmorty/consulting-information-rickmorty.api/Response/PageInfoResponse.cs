@@ -1,6 +1,6 @@
-﻿namespace consulting_information_rickmorty.api.Dtos
+﻿namespace consulting_information_rickmorty.api.Response
 {
-    internal class PageInfoDto
+    internal class PageInfoResponse
     {
         public int Count { get; set; }
         public int Pages { get; set; }

@@ -1,6 +1,6 @@
-﻿namespace consulting_information_rickmorty.api.Dtos
+﻿namespace consulting_information_rickmorty.api.Response
 {
-    internal class CharacterDto
+    internal class CharacterResponse
     {
         /// <summary>
         /// The id of the character.
@@ -35,12 +35,12 @@
         /// <summary>
         /// Name and link to the character's last known location endpoint.
         /// </summary>
-        public CharacterLocationDto Location { get; set; }
+        public CharacterLocationResponse Location { get; set; }
 
         /// <summary>
         /// Name and link to the character's origin location.
         /// </summary>
-        public CharacterOriginDto Origin { get; set; }
+        public CharacterOriginResponse Origin { get; set; }
 
         /// <summary>
         /// Link to the character's image. All images are 300x300px and most are medium shots or portraits since they are intended to be used as avatars.
