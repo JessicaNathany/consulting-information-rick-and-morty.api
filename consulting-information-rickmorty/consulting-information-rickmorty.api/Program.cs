@@ -1,5 +1,6 @@
 using consulting_information_rickmorty.api.Models;
 using consulting_information_rickmorty.api.Service;
+using consulting_information_rickmorty.api.Service.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,7 +21,7 @@ app.UseHttpsRedirection();
 app.MapGet("/episode", async ( [FromServices] EpisodeService service) =>  
 await service.GetAllEpisodes()).WithName("GetEpisodes").WithTags("Episode");
 
-app.MapGet("/episode/{id}", async (int id, [FromServices] EpisodeService service) =>
+app.MapGet("/episode/{id}", async (int id, [FromServices] IEpisodeService service) =>
 
 await service.GetEpisodeById(id)
     is Episode episode ? Results.Ok(episode) : Results.NotFound())
